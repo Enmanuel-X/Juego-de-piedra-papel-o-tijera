@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Play</title>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__lista">
+                <li class="header__item">
+                    <a href="#" class="header__enlaces">Home</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__enlaces">More games</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__enlaces">Support</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="game">
+
+        <section class="game__absolute">
+            <h2 class="title">Rock paper scissors</h2>
+        </section>
+
+        <section class="game__options">
+            <button id="rock" class="game__buttons">
+                <img src="/img/rock.svg" alt="rock" class="game__img">
+            </button>
+
+            <button id="paper" class="game__buttons">
+                <img src="/img/paper.svg" alt="" class="game__img">
+            </button>
+
+            <button id="scissors" class="game__buttons">
+                <img src="/img/scissors.svg" alt="" class="game__img">
+            </button>
+        </section>
+
+        <section class="game__results">
+            <figure class="game__start">
+                <img src="/img/rock.svg" alt="rock" id="result_gamer" class="game__choose">
+            </figure>
+
+            <div>
+                <p id="result" class="result">Please choose one option</p>
+            </div>
+
+            <figure class="game__start">
+                <img src="/img/rock.svg" alt="rock" id="result_machine" class="game__choose">
+            </figure>
+        </section>
+    </main>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
