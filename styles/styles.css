@@ -1,7 +1,7 @@
 :root {
-    --body : #7B38C2;
-    --color_primary :#9B46F4 ;
-    --color_secudary :#C291F7;
+    --body : #0a1dc7;
+    --color_primary :#0a1dc7 ;
+    --color_secudary :#ffffff;
     --tipografia : 'Roboto', sans-serif;
     --font-size_Words : 1.6rem;
     --Titles :1.7rem;
@@ -70,7 +70,7 @@ body {
     top: 8rem;
     border-radius: 5rem;
     background: var(--color_primary);
-    box-shadow: .5rem 1rem .5rem .5rem;
+    box-shadow: 3px 4px 5px 2px;
 }
 
 .game__absolute {
@@ -97,13 +97,19 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: .5rem 0 0.5rem 3rem;
    
 }
 
 .game__buttons {
     border-radius: 5rem;
+    box-shadow: 2px 3px 4px 1px;
+    transition: .3s;
+}
+
+.game__buttons:hover {
+    box-shadow: none;
 }
 
 .game__img {
